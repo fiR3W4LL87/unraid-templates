@@ -3,8 +3,8 @@
   <Name>SpaceEngineers</Name>
   <Repository>devidian/spaceengineers</Repository>
   <Registry>https://hub.docker.com/r/devidian/spaceengineers/</Registry>
-  <Network>br2.30</Network>
-  <MyIP>10.12.3.6</MyIP>
+  <Network></Network>
+  <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/devidian/spaceengineers/</Support>
