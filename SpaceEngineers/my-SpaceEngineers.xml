@@ -18,7 +18,7 @@ Converted By Community Applications   Always verify this template (and values)  
 &#xD;
 https://hub.docker.com/r/devidian/spaceengineers/&#xD;
 &#xD;
-Credits to devidian, creator of the container.</Overview>
+Special THX to devidian, creator of the container.</Overview>
   <Category>GameServers:</Category>
   <WebUI/>
   <TemplateURL/>
@@ -34,7 +34,7 @@ Credits to devidian, creator of the container.</Overview>
   <Config Name="ServerFiles" Target="/appdata/space-engineers/SpaceEngineersDedicated" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/SpaceEngineersDedicated</Config>
   <Config Name="SaveGame" Target="/appdata/space-engineers/instances/Saves/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/SpaceEngineersDedicated/Instances/Saves/</Config>
   <Config Name="ServerConfig" Target="/appdata/space-engineers/instances" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/SpaceEngineersDedicated/Instances</Config>
-  <Config Name="UDP - Game Port" Target="" Default="" Mode="udp" Description="" Type="Port" Display="always" Required="false" Mask="false">27017</Config>
+  <Config Name="UDP - Game Port" Target="" Default="" Mode="udp" Description="" Type="Port" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Container Variable 3" Target="WINEPREFIX" Default="/root/server" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">/root/server</Config>
   <Config Name="Container Variable 1" Target="WINEARCH" Default="win64" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">win64</Config>
   <Config Name="Container Variable 2" Target="WINEDEBUG" Default="-all" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">-all</Config>
