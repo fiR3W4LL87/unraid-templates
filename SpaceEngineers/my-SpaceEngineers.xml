@@ -14,8 +14,6 @@ BETA Warning: Since this Docker runs with WINE it's marked as BETA, i can not gu
 &#xD;
 ATTENTION: First Startup can take very long since it downloads the gameserver files!&#xD;
 &#xD;
-Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
-&#xD;
 https://hub.docker.com/r/devidian/spaceengineers/&#xD;
 &#xD;
 Credits to devidian, creator of the container.</Overview>
