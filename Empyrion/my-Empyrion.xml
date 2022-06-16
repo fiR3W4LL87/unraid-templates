@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Empyrion</Name>
+  <Repository>bitr/empyrion-server</Repository>
+  <Registry>https://hub.docker.com/r/bitr/empyrion-server/</Registry>
+  <Network>br2.30</Network>
+  <MyIP>10.12.3.7</MyIP>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://hub.docker.com/r/bitr/empyrion-server/</Project>
+  <Overview>Empyrion dedicated server using WINE&#xD;
+BETA Warning: Since this Docker runs with WINE it's marked as BETA, i can not guarantee if the server is running always as expected!&#xD;
+&#xD;
+ATTENTION: First Startup can take very long since it downloads the gameserver files!&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/bitr/empyrion-server/&#xD;
+&#xD;
+Credits to bitr, creator of the container.</Overview>
+  <Category>GameServers:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/157792e4abb490f99dbd738483e0d2d4/32/256x256.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1655411373</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Container Port 1" Target="30000" Default="30000" Mode="udp" Description="" Type="Port" Display="always" Required="false" Mask="false">30000</Config>
+  <Config Name="Game_DIR" Target="/home/user/Empyrion - Dedicated Server/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/Empyrion - Dedicated Server/</Config>
+  <Config Name="Community Applications Conversion" Target="Community_Applications_Conversion" Default="true" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">true</Config>
+  <Config Name="SteamCMD" Target="/home/user/Steam" Default="" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/Empyrion - Dedicated Server</Config>
+</Container>
