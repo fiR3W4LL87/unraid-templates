@@ -7,6 +7,7 @@ In order for the server to start, there are still a few steps that need to be ta
     ServerName - Your server name that you want to find in the overview. WorldName - The name of the world
 
 - Then continue: in the folder Saves you create a new folder with Docker Star System
+   
     IMPORTANT: If you have changed the WorldName in the CFG before, enter the corresponding name.
     
     INFO: The port 27017 was defined by me because I had already occupied the standard port of 27016.
