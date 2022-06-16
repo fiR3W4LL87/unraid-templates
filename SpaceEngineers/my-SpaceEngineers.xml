@@ -39,5 +39,4 @@ Credits to devidian, creator of the container.</Overview>
   <Config Name="Container Variable 1" Target="WINEARCH" Default="win64" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">win64</Config>
   <Config Name="Container Variable 2" Target="WINEDEBUG" Default="-all" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">-all</Config>
   <Config Name="Container Variable 4" Target="APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE" Default="1" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">1</Config>
-  <Config Name="Community Applications Conversion" Target="Community_Applications_Conversion" Default="true" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">true</Config>
 </Container>
