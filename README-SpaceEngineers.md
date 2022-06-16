@@ -9,10 +9,11 @@ In order for the server to start, there are still a few steps that need to be ta
 - Then continue: in the folder Saves you create a new folder with Docker Star System
    
     IMPORTANT: If you have changed the WorldName in the CFG before, enter the corresponding name.
+    - Then go into the folder and upload all the files that are stored in my GitHub account under Docker Star System.
     
     INFO: The port 27017 was defined by me because I had already occupied the standard port of 27016.
     If you want to change this, you can find the entry in the SpaceEngineers-Dedicated.cfg under Serverport.
     
-- Then go into the folder and upload all the files that are stored in my GitHub account under Docker Star System.
+
 
 After that, you should be able to start the server.
