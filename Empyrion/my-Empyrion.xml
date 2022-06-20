@@ -3,8 +3,8 @@
   <Name>Empyrion</Name>
   <Repository>bitr/empyrion-server</Repository>
   <Registry>https://hub.docker.com/r/bitr/empyrion-server/</Registry>
-  <Network>br2.30</Network>
-  <MyIP>10.12.3.7</MyIP>
+  <Network></Network>
+  <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
@@ -31,6 +31,5 @@ Credits to bitr, creator of the container.</Overview>
   <Requires/>
   <Config Name="Container Port 1" Target="30000" Default="30000" Mode="udp" Description="" Type="Port" Display="always" Required="false" Mask="false">30000</Config>
   <Config Name="Game_DIR" Target="/home/user/Empyrion - Dedicated Server/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/Empyrion - Dedicated Server/</Config>
-  <Config Name="Community Applications Conversion" Target="Community_Applications_Conversion" Default="true" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">true</Config>
   <Config Name="SteamCMD" Target="/home/user/Steam" Default="" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/Empyrion - Dedicated Server</Config>
 </Container>
