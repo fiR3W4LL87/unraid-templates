@@ -13,8 +13,7 @@
 BETA Warning: Since this Docker runs with WINE it's marked as BETA, i can not guarantee if the server is running always as expected!&#xD;
 &#xD;
 ATTENTION: First Startup can take very long since it downloads the gameserver files!&#xD;
-Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
-&#xD;
+    
 https://hub.docker.com/r/bitr/empyrion-server/&#xD;
 &#xD;
 Credits to bitr, creator of the container.</Overview>
