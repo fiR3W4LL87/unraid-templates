@@ -7,7 +7,7 @@
   <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>https://forums.unraid.net/topic/127097-support-fir3w4ll-gameserver-dockers/</Support>
+  <Support>https://forums.unraid.net/topic/127097-support-fir3w4ll-gameserver-dockers/</Support>
   <Project>https://hub.docker.com/r/bitr/empyrion-server/</Project>
   <Overview>Empyrion dedicated server using WINE&#xD;
 BETA Warning: Since this Docker runs with WINE it's marked as BETA, i can not guarantee if the server is running always as expected!&#xD;
