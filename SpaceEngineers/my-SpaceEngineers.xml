@@ -3,7 +3,7 @@
   <Name>SpaceEngineers</Name>
   <Repository>devidian/spaceengineers</Repository>
   <Registry>https://hub.docker.com/r/devidian/spaceengineers/</Registry>
-  <Network></Network>
+  <Network>Bridge</Network>
   <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -30,11 +30,13 @@ Credits to devidian, creator of the container.</Overview>
   <Requires/>
   <Config Name="SteamCMD" Target="/serverdata/steamcmd" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/steamcmd/</Config>
   <Config Name="ServerFiles" Target="/appdata/space-engineers/SpaceEngineersDedicated" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/SpaceEngineersDedicated</Config>
-  <Config Name="SaveGame" Target="/appdata/space-engineers/instances/Saves/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/SpaceEngineersDedicated/Instances/Saves/</Config>
   <Config Name="ServerConfig" Target="/appdata/space-engineers/instances" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/SpaceEngineersDedicated/Instances</Config>
+  <Config Name="Instance Name" Target="INSTANCE_NAME" Default="SE" Mode="" Description="The name of your instance, is used as a subfolder in the instances directory" Type="Variable" Display="Always" Required="true" Mask="false">SE</Config>
   <Config Name="UDP - Game Port" Target="" Default="" Mode="udp" Description="" Type="Port" Display="always" Required="false" Mask="false">27017</Config>
+  <Config Name="TCP - Remote Control Port" Target="" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">18080</Config>
   <Config Name="Container Variable 3" Target="WINEPREFIX" Default="/root/server" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">/root/server</Config>
   <Config Name="Container Variable 1" Target="WINEARCH" Default="win64" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">win64</Config>
   <Config Name="Container Variable 2" Target="WINEDEBUG" Default="-all" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">-all</Config>
   <Config Name="Container Variable 4" Target="APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE" Default="1" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">1</Config>
+  
 </Container>
